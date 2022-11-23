@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&family=Lato:wght@100;300;400;700&family=Nunito:ital,wght@0,200;0,300;0,600;1,300&family=Open+Sans:wght@300;400;500&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bottom div {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  margin: 5px;
+  padding: 10px;
+}
+
+input {
+  width: 200px;
+  outline: none;
+  padding: 10px;
+}
